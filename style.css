@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    
+}
+.nav{
+    height: 20vh;
+    width:100%;
+    position: fixed;
+    top :0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.content{
+    width:100%;
+    
+    
+}
+.content_home {
+    height:80vh;
+    width: 80%;
+
+}
+.content_about{
+    width:80%;
+}
+.content_about_1{
+    height: 80vh;
+    width: 80%
+}
+.content_about_2{
+    height: 80vh;
+    width: 80%
+}
+.content_goal{
+    height:80vh;
+    width:80%;
+}
