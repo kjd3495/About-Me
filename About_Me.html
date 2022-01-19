@@ -9,27 +9,28 @@
     <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
 </head>
 <body>
-    <div>
     <div class="nav">
-        <div class="nav_right">
+        <div class="nav_left">
         <div class="logo">About Me</div>
         </div>
-        <div class="nav_left">
-        <div class="home"><a href =".content_home">home</a></div>
-        <div class="about"><a href =".content_about">about</a></div>
-        <div class="goal"><a href=".content_goal">goal</a></div>
+        <div class="nav_right">
+        <div class="home"><a href ="#">home</a></div>
+        <div class="about"><a href ="#">about</a></div>
+        <div class="goal"><a href="#">goal</a></div>
         </div>
     </div> 
     <div class="content">
-        <div clsss="content_home">
+        <div class="content_home">
             <div class="home_left">
-                <img src="" alt="사진"/>
+                <img class="home_img" src="./img/KakaoTalk_20220117_130732461.jpg" alt="사진"/>
             </div>
             <div class="home_right">
-                <p>소통하는
-                    프론트엔드 개발자가
+                <div class="text">
+                <p>소통하는<br/>
+                    프론트엔드 개발자가<br/>
                     되고 싶습니다!!!
                 </p>
+            </div>
                 <div class="learn_more">
                     <span>learn more</span>
                     <div class="down"><i class="fas fa-arrow-down"></i></div>
@@ -37,14 +38,34 @@
             </div>
             
         </div>
+        <hr />
         <div class = "content_about">
             <div class="content_about_1">
-                인포
-            </div>
+                <div class="about1_left"><img src="./img/KakaoTalk_20220117_131319928.jpg"/>
+                    <div class="my_info"><br/>
+                                        Phone: 010-5204-3495<br/>
+                                        Email: ktx3495@gmail.com</div>
+                </div>
+                <div class="about1_right">
+                    <div class="about1_items">
+                        <div class="about1_item">INFO<br/><br/>이름: 김재도 <br/><br/>
+                                                        나이 : 26<br/><br/>
+                                                        직업 : 개발자(준비중!!)</div>
+                        <div class="about1_item">Education<br/><br/>가천대학교 컴퓨터공학과</div>
+                    </div>
+                    <div class="about1_items">
+                        <div class="about1_item">Skill<br/><br/><div class="about1_img"><img class ="html_css_js"src= "./img/javascript-vs-html-vs-css-1024x683.jpg" alt="스킬"/><img class="react"src="./img/react.png" alt="스킬"/></div></div>
+                        <div class="about1_item">Project<br/><br/><a href="https://github.com/kjd3495">지식공유플랫폼</a><br/><br/>
+                                                                <a href="https://github.com/kjd3495">jaedo's book(개발중)</a></div>
+                    </div>
+                    </div>
+                </div>
+            <hr style="width : 100%;"/>
             <div class="content_about_2">
                 취미
             </div>
         </div>
+        <hr/>
         <div class="content_goal">
             목표
         </div>
@@ -52,6 +73,6 @@
             wecode
         </div>
     </div>
-    </div>
+
 </body>
 </html> 
