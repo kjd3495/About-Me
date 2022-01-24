@@ -18,12 +18,12 @@
         </div>
         <div class="nav_right">
         <div class="home"><a href ="#">home</a></div>
-        <div class="about"><a href ="#">about</a></div>
-        <div class="nav_goal"><a href="#">goal</a></div>
+        <div class="about"><a href ="#content_about">about</a></div>
+        <div class="nav_goal"><a href="#content_goal">goal</a></div>
         </div>
     </div> 
     <div class="content">
-        <div class="content_home">
+        <div id="content_home">
             <div class="home_left">
                 <img class="home_img" src="./img/KakaoTalk_20220117_130732461.jpg" alt="사진"/>
             </div>
@@ -42,7 +42,7 @@
             
         </div>
         <hr />
-        <div class = "content_about">
+        <div id = "content_about">
             <div class="content_about_1">
                 <div class="about1_left"><div class="about1_img"><img src="./img/KakaoTalk_20220117_131319928.jpg"/></div>
                     <div class="my_info"><br/>
@@ -60,8 +60,8 @@
                     </div>
                     <div class="about1_items">
                         <div class="about1_item"><strong>Skill</strong><br/><br/><div class="about1_img"><img class ="html_css_js"src= "./img/javascript-vs-html-vs-css-1024x683.jpg" alt="스킬"/><img class="react"src="./img/react.png" alt="스킬"/></div></div>
-                        <div class="about1_item"><strong>Project</strong><br/><br/><a href="https://github.com/kjd3495">지식공유플랫폼</a><br/><br/>
-                                                                <a href="https://github.com/kjd3495">jaedo's book(개발중)</a></div>
+                        <div class="about1_item"><strong>Project</strong><br/><br/><a href="https://github.com/kjd3495"  target="_blank">지식공유플랫폼</a><br/><br/>
+                                                                <a href="https://github.com/kjd3495"  target="_blank">jaedo's book(개발중)</a></div>
                     </div>
                 </fieldset>
             </div>
@@ -88,8 +88,10 @@
             </div>
         </div>
         <hr/>
-        <div class="content_goal">
+        <div id="content_goal">
+            <div class="goal_title">
             <strong>goal</strong>
+            </div>
             <div class="goals">
                 <div class="goal"><strong>취직하기</strong><img src="./img/취직.jpg"/></div>
                 <div class="goal"><strong>성장하기</strong><img src="./img/성장.jpg"/></div>
@@ -100,5 +102,6 @@
         </div>
     </div>
 
+    <script src="./app.js"></script>
 </body>
 </html> 
