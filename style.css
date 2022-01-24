@@ -15,6 +15,14 @@ hr{
     margin-bottom: 40vh;
     
 }
+.about1_right fieldset{
+    width: 90%;
+    height: 60%;
+    padding: 20px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    border: 3px solid gray;
+}
 .nav{
     height: 20vh;
     width:100%;
@@ -25,9 +33,13 @@ hr{
     align-items: center;
     padding: 30px;
     margin-top: -20px;
+    font-size: 20px;
     
 
     
+}
+.logo{
+    font-size: 40px;
 }
 .nav_left{
     flex:0.2;
@@ -46,6 +58,12 @@ hr{
     align-items: center;
     
 }
+.text{
+    font-size: 40px;
+}
+.learn_more{
+    font-size: 20px;
+}
 .content_home {
     height:90vh;
     width: 80%;
@@ -58,7 +76,6 @@ hr{
 .home_left {
     flex:0.5;
     height: 100%;
-    object-fit: contain;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,12 +106,13 @@ hr{
 }
 .content_about_1{
     height: 70vh;
-    width: 80%;
+    width: 90%;
     margin-bottom: 40vh;
     background-color: white;
     display: flex;
     align-items: center;
     margin-top: 40vh;
+    
 }
 .about1_left{
     width:50%;
@@ -104,10 +122,16 @@ hr{
     align-items: center;
     justify-content: center;
 }
+.about1_img{
+    width:100%;
+    height:60%;
+    
+}
 .about1_left img{
     width:100%;
-    height: 60%;
+    height: 100%;
     object-fit: contain;
+    
 }
 .about1_right{
     width:50%;
@@ -117,17 +141,19 @@ hr{
     align-items: center;
     justify-content: center;
     padding:10px;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 .about1_items{
     width:100%;
     height:40%;
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
 .about1_item{
     flex: 0.5;
     height: 50%;
+    
 }
 .about1_img{
     display: flex;
@@ -137,26 +163,93 @@ hr{
 }
 .react{
     width: 15%;
-    height: 60%;
+    height: 100%;
     object-fit: contain;
+    
+    
 }
 .html_css_js{
     object-fit: contain;
     width : 50%;
     height:100%;
-    margin-left:-10px;
-    margin-right:10px;
+    
+    
 }
 .content_about_2{
     height: 60vh;
-    width: 80%;
+    width: 90%;
     margin-bottom: 40vh;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+.hobbies{
+    width:100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.hobbies fieldset {
+    width: 30%;
+    height: 70%;
+    padding: 20px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    border: 3px solid gray;
+}
+.hobby{
+    display: flex;
+    width:100%;
+    height:100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.hobby img{
+    width: 45%;
+    height: 100%;
+    object-fit: contain;
+
+}
+.movie {
+    width:100% !important;
+    height: 100%;
+    object-fit: contain;
+}
+
 .content_goal{
     height:90vh;
     width:80%;
     margin-bottom: 20vh;
+
+}
+.content_goal strong{
+    font-size: 20px;
+}
+.goals {
+    width: 80%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:0 auto;
+}
+.goal {
+    width: 40%;
+    height: 80%;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20%;
+}
+.goal img {
+    width: 80%;
+    height: 60%;
 }
 .footer{
     border-top: 0.1px solid black;
@@ -165,4 +258,5 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 20px;
 }
